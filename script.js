@@ -1,6 +1,6 @@
 $(function(){
-    $('a').attr('target','blank');
-    $('a').prepend(function(index,html){
+    $('a').attr('target','_blank');
+    $('.socialnetworks li a').prepend(function(index,html){
         switch (html){
             case 'Facebook' : $(this).prepend('<i class="fab fa-facebook-f"></i>');break;
             case 'Instagram' : $(this).prepend('<i class="fab fa-instagram"></i>');break;
